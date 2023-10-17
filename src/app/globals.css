@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    text-align: left !important;
+    color: #F9FAFB;
+    font-family: var(--font-poppins) !important;
+    /* overflow-x: hidden; */
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+a:hover {
+    color: #F9FAFB;
+    text-decoration: none;
+}
+
+.react-datetime-picker__wrapper {
+    border: none !important;
+}
+
+.react-calendar__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datetime-picker__inputGroup {
+    display: flex;
+}
+
+.react-datetime-picker__inputGroup input {}
+
+*::-webkit-scrollbar {
+    width: 1px;
+    height: 2px;
+}
+
+*::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar-button,
+body:not(._native-scrollbars) *::-webkit-scrollbar-corner {
+    display: none;
+}
+
+*::-webkit-scrollbar-button,
+body:not(._native-scrollbars) *::-webkit-scrollbar-corner {
+    display: none;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    min-height: 2rem;
+    background: rgb(236, 236, 236);
+    /* background-clip: padding-box; */
+    border: 5px solid transparent;
+    border-radius: 10px;
+}
+
+
+*::-webkit-scrollbar-track {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    filter: grayscale();
+}
+
+.pincode-input-text {
+    padding: 0 !important;
+    margin: 0 2px;
+    text-align: center;
+    border-bottom: 2px solid #5A5A5A !important;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.swiper-pagination-bullets {
+    margin-top: 1rem;
+}
+
+.swiper-pagination-bullet {
+    color: #E5F5F4 !important;
+    opacity: 1 !important;
+    background: #E5F5F4 !important;
+
+}
+
+.swiper-pagination-bullet-active {
+    color: #36FFE8 !important;
+    opacity: 1 !important;
+    background: #36FFE8 !important;
+
+}
+
+.slider-track-0 {
+    /* color of the track before the thumb */
+    background-color: #F2F4F7 !important;
+}
+
+.loader {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #182cd1;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 0.8s linear infinite;
+}
